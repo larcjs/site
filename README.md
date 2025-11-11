@@ -1,13 +1,13 @@
 # LARC Site
 
 [![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
-[![Website](https://img.shields.io/badge/website-live-brightgreen.svg)](https://larcjs.github.io/larc-site/)
+[![Website](https://img.shields.io/badge/website-live-brightgreen.svg)](https://larcjs.github.io/site/)
 
 > **Official documentation website** and showcase for the LARC/PAN ecosystem
 
 The central hub for LARC documentation, guides, API references, and interactive demos.
 
-🌐 **Live Site:** [https://larcjs.github.io/larc-site/](https://larcjs.github.io/larc-site/)
+🌐 **Live Site:** [https://larcjs.github.io/site/](https://larcjs.github.io/site/)
 
 ---
 
@@ -46,8 +46,8 @@ The central hub for LARC documentation, guides, API references, and interactive 
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/larcjs/larc-site.git
-   cd larc-site
+   git clone https://github.com/larcjs/site.git
+   cd site
    ```
 
 2. **Install dependencies:**
@@ -102,7 +102,7 @@ Generates API reference from source code comments.
 ## 📂 Repository Structure
 
 ```
-larc-site/
+site/
 ├── index.html              # Homepage
 ├── docs/                   # Source documentation (Markdown)
 │   ├── API_REFERENCE.md
@@ -210,7 +210,7 @@ npm run build
 
 # Deploy to your hosting
 # (copy files to web server)
-rsync -avz --delete . user@server:/var/www/larc-site/
+rsync -avz --delete . user@server:/var/www/site/
 ```
 
 ---
@@ -219,10 +219,10 @@ rsync -avz --delete . user@server:/var/www/larc-site/
 
 The site links to other LARC repositories:
 
-- **[@larcjs/core](https://github.com/larcjs/larc-core)** — Core implementation
-- **[@larcjs/components](https://github.com/larcjs/larc-components)** — UI components
-- **[@larcjs/examples](https://github.com/larcjs/larc-examples)** — Examples & demos
-- **[@larcjs/devtools](https://github.com/larcjs/larc-devtools)** — DevTools extension
+- **[@larcjs/core](https://github.com/larcjs/core)** — Core implementation
+- **[@larcjs/components](https://github.com/larcjs/components)** — UI components
+- **[@larcjs/examples](https://github.com/larcjs/examples)** — Examples & demos
+- **[@larcjs/devtools](https://github.com/larcjs/devtools)** — DevTools extension
 
 Ensure links stay updated when repo structure changes.
 
@@ -346,8 +346,8 @@ MIT © Chris Robison
 
 ## 🆘 Support
 
-- 💬 [Discussions](https://github.com/larcjs/larc-site/discussions)
-- 🐛 [Issue Tracker](https://github.com/larcjs/larc-site/issues)
+- 💬 [Discussions](https://github.com/larcjs/site/discussions)
+- 🐛 [Issue Tracker](https://github.com/larcjs/site/issues)
 - 📧 [Email](mailto:support@larc.dev)
 
 ---
