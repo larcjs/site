@@ -1,6 +1,6 @@
 // <pan-provider> — minimal in-memory CRUD provider
 // Attributes: resource (default "items")
-import { PanClient } from '../../dist/pan-client.js';
+import { PanClient } from '../../../../core/src/components/pan-client.mjs';
 
 export class PanProvider extends HTMLElement {
   constructor(){ super(); this.pc = new PanClient(this); this.items=[]; this.key='id'; this.resource=(this.getAttribute('resource')||'items'); }
