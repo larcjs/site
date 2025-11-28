@@ -245,7 +245,7 @@ Use triple backticks with language:
 <!DOCTYPE html>
 <html>
   <head>
-    <script type="module" src="https://unpkg.com/@larcjs/core/src/pan.js"></script>
+    <script type="module" src="https://unpkg.com/@larcjs/core@1.1.1/src/pan.js"></script>
   </head>
   <body>
     <pan-bus></pan-bus>
@@ -348,7 +348,6 @@ MIT © Chris Robison
 
 - 💬 [Discussions](https://github.com/larcjs/site/discussions)
 - 🐛 [Issue Tracker](https://github.com/larcjs/site/issues)
-- 📧 [Email](mailto:support@larc.dev)
 
 ---
 
