@@ -499,7 +499,7 @@
         <a href="examples.html">Examples</a>
         <a href="apps.html">Apps</a>
         <a href="docs/index.html">Docs</a>
-        <a href="https://github.com/chrisrobison/pan" target="_blank">GitHub</a>
+        <a href="https://github.com/larcjs" target="_blank">GitHub</a>
         <pan-theme-toggle variant="icon"></pan-theme-toggle>
       </nav>
     </div>
@@ -507,11 +507,11 @@
 
   <!-- Hero Section -->
   <section class="hero">
-    <div class="hero-badge">v0.1.0 · PAN v1 Compliant · Framework Friendly</div>
-    <h1>Reduce React Overhead<br>by 60%</h1>
+    <div class="hero-badge">v1.1.1 · PAN v1 Compliant · Production Ready</div>
+    <h1>Build Loosely-Coupled<br>Web Applications</h1>
     <p class="hero-subtitle">
-      PAN messaging makes Web Components actually useful. Keep React/Vue for complex UIs.<br>
-      Use LARC for cards, tables, modals - cut your bundle size in half.
+      A production-ready messaging bus for coordinating web components, micro-frontends, and framework integrations.<br>
+      Zero dependencies. Framework agnostic. 5KB core. 60+ components ready to use.
     </p>
     <div class="hero-cta">
       <a href="examples.html" class="btn btn-primary">View Examples</a>
@@ -526,14 +526,14 @@
     <div class="features-grid">
       <div class="feature-card">
         <div class="feature-icon">⚡</div>
-        <h3>Complement Your Framework</h3>
-        <p>Don't replace React/Vue - reduce it. Use frameworks for complex UIs, LARC for cards, modals, tables. Cut bundle size 60%+.</p>
+        <h3>Framework Integration</h3>
+        <p>Use alongside React, Vue, Angular, or vanilla JS. PAN messaging enables seamless coordination without tight coupling. Reduce your framework footprint by 60%+.</p>
       </div>
 
       <div class="feature-card">
         <div class="feature-icon">🔌</div>
-        <h3>Solves Web Component Silos</h3>
-        <p>Web Components without coordination are useless. PAN messaging lets components communicate without tight coupling.</p>
+        <h3>Component Coordination</h3>
+        <p>PAN messaging protocol enables web components to communicate effectively without prop drilling or tight coupling. Build truly reusable component libraries.</p>
       </div>
 
       <div class="feature-card">
@@ -557,7 +557,7 @@
       <div class="feature-card">
         <div class="feature-icon">🌐</div>
         <h3>Rich Component Library</h3>
-        <p>50+ production-ready components: data tables, forms, charts, modals. All coordinating via PAN.</p>
+        <p>60+ production-ready components: data tables, forms, charts, modals, authentication flows. Enterprise-grade UI elements that work anywhere.</p>
       </div>
 
       <div class="feature-card">
@@ -577,12 +577,12 @@
   <!-- Code Example -->
   <section class="code-section" id="examples">
     <div class="code-section-inner">
-      <h2>Get Started in 10 Seconds</h2>
-      <p class="code-section-subtitle">Copy this into an HTML file and open it. That's it.</p>
+      <h2>Get Started in Seconds</h2>
+      <p class="code-section-subtitle">Drop a script tag and start building. No build tools required.</p>
       <div class="code-example">
 <pre><code><span class="code-comment">&lt;!doctype html&gt;</span>
 <span class="code-comment">&lt;!-- Drop one script tag, then use any component. That's it! --&gt;</span>
-<span class="code-tag">&lt;script</span> <span class="code-attr">type</span>=<span class="code-string">"module"</span> <span class="code-attr">src</span>=<span class="code-string">"https://chrisrobison.github.io/pan/src/components/pan-autoload.mjs"</span><span class="code-tag">&gt;&lt;/script&gt;</span>
+<span class="code-tag">&lt;script</span> <span class="code-attr">type</span>=<span class="code-string">"module"</span> <span class="code-attr">src</span>=<span class="code-string">"https://cdn.jsdelivr.net/npm/@larcjs/components@1/src/pan-autoload.mjs"</span><span class="code-tag">&gt;&lt;/script&gt;</span>
 
 <span class="code-comment">&lt;!-- Components load automatically (including pan-bus!) --&gt;</span>
 <span class="code-tag">&lt;x-counter&gt;&lt;/x-counter&gt;</span>
@@ -630,12 +630,12 @@
   <!-- CTA Section -->
   <section class="cta-section">
     <h2>Ready to Build?</h2>
-    <p>Explore 18+ progressive examples and 5 production-ready demo applications</p>
+    <p>Explore 20+ progressive examples and 6 production-ready demo applications</p>
     <div class="cta-buttons">
       <a href="examples.html" class="btn btn-light">Browse Examples</a>
       <a href="apps.html" class="btn btn-light">Try Demo Apps</a>
       <a href="docs/index.html" class="btn btn-outline">Read the Docs</a>
-      <a href="https://github.com/chrisrobison/pan" target="_blank" class="btn btn-outline">View on GitHub</a>
+      <a href="https://github.com/larcjs" target="_blank" class="btn btn-outline">View on GitHub</a>
     </div>
   </section>
 
@@ -678,8 +678,10 @@
       <div class="footer-section">
         <h4>Community</h4>
         <ul>
-          <li><a href="https://github.com/chrisrobison/pan" target="_blank">GitHub</a></li>
-          <li><a href="https://github.com/chrisrobison/pan/issues" target="_blank">Issues</a></li>
+          <li><a href="https://github.com/larcjs" target="_blank">GitHub Organization</a></li>
+          <li><a href="https://github.com/larcjs/core" target="_blank">Core Repository</a></li>
+          <li><a href="https://github.com/larcjs/components" target="_blank">Components</a></li>
+          <li><a href="https://github.com/larcjs/core/issues" target="_blank">Issues</a></li>
           <li><a href="rfcs/README.md">RFCs</a></li>
         </ul>
       </div>
@@ -693,8 +695,8 @@
   <pan-theme-provider theme="auto"></pan-theme-provider>
 
   <script type="module">
-    import '../src/components/pan-theme-provider.mjs';
-    import '../src/components/pan-theme-toggle.mjs';
+    import '../ui/src/components/pan-theme-provider.mjs';
+    import '../ui/src/components/pan-theme-toggle.mjs';
   </script>
 </body>
 </html>
